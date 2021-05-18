@@ -36,7 +36,11 @@
   color: #61dafb;
 }
 
-/* grid for album cards (formerly tech)---remove paren part */
+.count {
+  color: white
+}
+
+/* grid for album cards */
 .album-section {
   margin-top: 30px;
   display: grid;
