@@ -7,7 +7,6 @@
 ## Features
 
 - Responsive
-- Can change artists (form handling)
 - Has some very simple error handling
 - Doesn't look too bad
 - Meets requirements
