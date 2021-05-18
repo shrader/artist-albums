@@ -1,3 +1,11 @@
+* {
+  text-align: center;
+}
+
+.main-title {
+  margin-bottom: 2%;
+}
+
 .App {
   text-align: center;
 }
@@ -28,11 +36,15 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* grid for album cards (formerly tech)---remove paren part */
+.album-section {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-gap: 1rem;
+  padding: 1rem 80px;
+  font-size: 1.2rem;
 }
