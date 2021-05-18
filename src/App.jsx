@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './Navbar';
 import AlbumList from './AlbumList';
+import Error from './Error';
+import Loading from './Loading';
 import Api from './Api';
 import './App.css';
 
@@ -53,8 +55,8 @@ function App() {
       artistLink={albumsData?.results[0]?.artistViewUrl || ''}
       albumCount={albumsData?.resultCount || 0}
       />
-      {isLoading && <p>Loading...</p>}
-      {error && <p>Error!</p>}
+      {isLoading && <Loading />}
+      {error && <Error />}
       {checkValidData()}
     </>
   );
