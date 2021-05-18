@@ -25,8 +25,8 @@ function App() {
       let tempData = await Api.getAlbums(artist);
       console.log(`returned data ${tempData}`);
       setAlbumsData(tempData);
-      setArtistLink(albumsData.results[0].artistViewUrl);
-      setArtistName(albumsData.results[0].artistName);
+      // setArtistLink(albumsData.results[0].artistViewUrl);
+      // setArtistName(albumsData.results[0].artistName);
     } catch (e) {
       console.error(e);
       setError(true);
