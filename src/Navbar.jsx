@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Navbar.css';
 
 function Navbar({ artistName, artistLink, albumCount }) {
@@ -10,7 +10,7 @@ function Navbar({ artistName, artistLink, albumCount }) {
           <h4>
             <a className="nav-link active" href={artistLink}>{artistName}</a>
           </h4>
-          <div class="count">
+          <div className="count">
             <h4> Albums: 
               <span className="green">
                 {` ${albumCount}`} 
