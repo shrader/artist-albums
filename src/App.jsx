@@ -12,10 +12,12 @@ function App() {
   const [albumsData, setAlbumsData] = useState();
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(false);
+  // eslint-disable-next-line no-unused-vars
   const [currArtist, setCurrArtist] = useState(DEFAULT_ARTIST);
   
   useEffect(() => {
     getAlbumsData(currArtist);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currArtist]);
 
   // call getAlbums from the Api, set state for albumsData and isLoading
@@ -24,7 +26,6 @@ function App() {
     // error handling
     try {
       let tempData = await Api.getAlbums(artist);
-      console.log(`returned data ${tempData}`);
       setAlbumsData(tempData);
     } catch (e) {
       console.error(e);
