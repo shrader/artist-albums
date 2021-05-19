@@ -7,18 +7,16 @@ import Api from './Api';
 import './App.css';
 
 function App() {
-  // default to be used as my 'favorite artist
+  // default to be used as my 'favorite artist'
   const DEFAULT_ARTIST = 'imagine dragons';
   const [albumsData, setAlbumsData] = useState();
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(false);
-  // eslint-disable-next-line no-unused-vars
-  const [currArtist, setCurrArtist] = useState(DEFAULT_ARTIST);
   
   useEffect(() => {
-    getAlbumsData(currArtist);
+    getAlbumsData(DEFAULT_ARTIST);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [currArtist]);
+  }, []);
 
   // call getAlbums from the Api, set state for albumsData and isLoading
   async function getAlbumsData(artist) {
