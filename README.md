@@ -11,7 +11,7 @@
 - Doesn't look too bad
 - Meets requirements
 - Artist name in navbar & album titles link to apple music pages
-- has working smoke tests 
+- Has working smoke tests 
 
 ## Running this app
 
