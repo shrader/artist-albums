@@ -13,6 +13,10 @@
 - Artist name in navbar & album titles link to apple music pages
 - Has working smoke tests 
 
+## Component Hierarchy
+
+![Mind map of react component hierarchy](img/Mind_Map.jpeg)
+
 ## Running this app
 
 (This assumes you have Node.js & npm installed, 
@@ -25,9 +29,6 @@ and have basic knowledge on the terminal / command line )
 * cd into the directory and run `npm i` or `npm install` to install the depndencies
 * use the other commands below
 
-## Component Hierarchy
-
-![Mind map of react component hierarchy](img/Mind_Map.jpeg)
 
 ## Available Scripts
 
