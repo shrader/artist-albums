@@ -2,7 +2,7 @@
 
 ### This is an app for displaying the albums of my 'favorite' artist.
 
-![Favorite artist albums app screen shot](public/Screen_Shot.png)
+![Favorite artist albums app screen shot](img/Screen_Shot.png)
 
 ## Features
 
@@ -11,7 +11,7 @@
 - Doesn't look too bad
 - Meets requirements
 - Artist name in navbar & album titles link to apple music pages
-- has working smoke tests 
+- Has working smoke tests 
 
 ## Running this app
 
@@ -25,7 +25,9 @@ and have basic knowledge on the terminal / command line )
 * cd into the directory and run `npm i` or `npm install` to install the depndencies
 * use the other commands below
 
+## Component Hierarchy
 
+![Mind map of react component hierarchy](img/Mind_Map.jpeg)
 
 ## Available Scripts
 
