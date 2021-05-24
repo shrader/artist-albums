@@ -4,7 +4,7 @@ import './Error.css';
 function Error() {
   return (
     <div className="error">
-      <h4>An error has occurred!</h4>
+      <h4>Api request failed!</h4>
     </div>
   );
 }
