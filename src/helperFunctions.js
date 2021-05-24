@@ -1,6 +1,7 @@
 /**
  * date comes in format "2012-01-01T08:00:00Z" (year-month-day-Time)
  * split on "T or , or space"
+ * then split just 2012-01-01 on '-'
  * convert to month-day-year and return
  */
 
