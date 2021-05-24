@@ -23,8 +23,8 @@ function App() {
     setIsLoading(true);
     // error handling
     try {
-      let tempData = await Api.getAlbums(artist);
-      setAlbumsData(tempData);
+      const response = await Api.getAlbums(artist);
+      setAlbumsData(response);
     } catch (e) {
       console.error(e);
       setError(true);
