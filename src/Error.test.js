@@ -7,7 +7,7 @@ import Error from './Error';
 describe('Error componenet functions properly', () => {
   test('renders error', () => {
     render(<Error />);
-    const errorElement = screen.getByText('An error has occurred!', { exact: true });
+    const errorElement = screen.getByText('Api request failed!', { exact: true });
     expect(errorElement).toBeInTheDocument();
   });
 });
