@@ -25,7 +25,7 @@ and have basic knowledge on the terminal / command line )
 * click the green "Code" button on the top right
 * copy the HTTPS link, or click the clipboard icon
 * open the terminal to the directory you want to save the files to
-* enter `git clone [paste HTTPS link here]
+* enter `git clone [paste HTTPS link here]` into the terminal
 * cd into the directory and run `npm i` or `npm install` to install the depndencies
 * use the other commands below
 
